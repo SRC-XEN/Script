@@ -22,10 +22,10 @@ end
 local function serverHop()
     if syn then
         syn.queue_on_teleport(
-            'loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/main.lua", true))()')
+            'loadstring(game:HttpGet("https://raw.githubusercontent.com/SRC-XEN/Script/main/Captain", true))()')
     else
         queue_on_teleport(
-            'loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/main.lua", true))()')
+            'loadstring(game:HttpGet("https://raw.githubusercontent.com/SRC-XEN/Script/main/Captain", true))()')
     end
 
 end
@@ -52,11 +52,11 @@ if game.GameId == 12375113481 then
         notify("Server Hopping")
         task.wait(1)
         serverHop()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SRC-XEN/Script-Support/main/Script", true))()
     else
         notify("Server Hopping")
         serverHop()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SRC-XEN/Script-Support/main/Script", true))()
     end
 
 end
